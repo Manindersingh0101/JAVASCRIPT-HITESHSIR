@@ -11,19 +11,21 @@ let name = "maninder"
 let age = 18
 let isloggedIn = false
 let state = null
-
+console.table([name,age,isloggedIn,null]);
+//primitive datatype
 //number => 2 tp power 53
-//bigint 
+//bigint  // require for when large no. of value
 // string => ""
 //bollean => true/false
-//null => standalone value
+//null => stand alone value // repersentation of empty value
 // undefined =>
-// symbol => unique
+// symbol => unique  ///  to find the uniqueness
 
 //preemtitive datatyoe
 
 
 
 
-//obj
+//object 
 console.log(typeof null);//  object
+console.log(typeof undefined); // object
