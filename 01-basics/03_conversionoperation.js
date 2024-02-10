@@ -14,11 +14,11 @@
 //console.log(typeof ValueInNumber);// output number
 //console.log(ValueInNumber); ////    output NaN
 
-
+/** 
 // "33" => 33
 // "33abc" => NaN
 //  True => 1; false => 0;
-
+*/
 // let isLoggedIn = "maninder"
 
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
@@ -30,12 +30,12 @@
 //let booleanIsLoggedIn = Boolean(isLoggedIn)
 //console.log(booleanIsLoggedIn); // output false
 
-
+/** 
 // 1 => true; 0 => false
 // "" => false
 // "mainder" => true
 
-
+*/
  //let someNumber = 33
 
  //let stringNumber = String(someNumber)
@@ -47,6 +47,12 @@
 //let value = 3 
 //let negValue = -value
 //console.log(negValue); // output -3
+
+// let a = 4 
+// let b = -a
+// console.log(b);   ///output -3
+
+
 
 // console.log(2+2);
 // console.log(2-2);
