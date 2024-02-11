@@ -68,6 +68,11 @@
   //let str3 = strl1 + strl2
   // console.log(strl3);  ////  output hello maninder
 
+  // let a = "hello"
+  // let b = " world"
+  // let c = a + b
+  // console.log(c); ////  output   heelo world
+
   // console.log("1" + 2);////  output  12
   // console.log(1 + "2");////  output   12 
   // console.log("1" + 2 + 2);////  output   122
@@ -92,3 +97,6 @@
 //++gameCounter1;
 //console.log(gameCounter1); ///// output 101 
 
+// let a = 1000
+// a++;
+// console.log(a);   // / output  1001
