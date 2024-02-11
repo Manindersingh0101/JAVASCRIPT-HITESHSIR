@@ -2,8 +2,8 @@
 // they are call by value
 // 7 types: String, Number, Boolearn, null, undefined, symbol, BigInt
 
-// const score = 100
-// const scorValue = 100.3
+// const score = 100  //  output 
+// const scorValue = 100.3    //  output 
 
 // const isLoggedIn = false
 // const outsidetemp = null
@@ -12,28 +12,37 @@
 // const id = Symbol('123')
 // const anotherid = Symbol('123')
 
-// console.log(id === anotherid);
+// console.log(id === anotherid);  // output = false
 
 
-//const bigNumber = 31245453456464562165n
+/// const bigNumber = 31245453456464562165n
 
-// reference(Non Primitive)
+/*  notes 
+reference(Non Primitive)
 
-// Array, Objects, function
+ Array, Objects, function
+*/
 
+// array
 // const heros = ["man", "ram"] // array
+
 // //object
 // let myObj = {
 //     name: "maninder",
 //     age: 20,
 // }
 
+//function 
 // const myfunction = function(){
 //     console.log("hello world");
 // } 
 
-// console.log(typeof heros);
 
+// FUNCTION    type of function is use for tell us what is dataype of this variable
+// console.log(typeof heros);
+// console.log(typeof bigNumber);
+// console.log(typeof outsidetemp);
+// console.log(typeof myfunction);
 
 
 
