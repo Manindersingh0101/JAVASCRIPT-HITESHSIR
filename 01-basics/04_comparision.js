@@ -34,4 +34,4 @@ Value such as false, '', '0', and [] are subject to numeric type coercion, all o
 
 // // ===
 
- console.log("2" === 2);//// output  false
+ //console.log("2" === 2);//// output  false
