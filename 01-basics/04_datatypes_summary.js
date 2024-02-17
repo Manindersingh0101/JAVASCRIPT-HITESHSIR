@@ -141,7 +141,7 @@ JavaScript's dynamic typing allows for more flexibility but can lead to potentia
 // console.log(typeof outsidetemp);    //output
 // console.log(typeof myfunction);     //output
 
-
+// https://262.ecma-international.org/5.1/#sec-11.4.3
 
 //++++++++++++++++++++++++++++++++++++++++++++++
 ///
@@ -150,23 +150,25 @@ JavaScript's dynamic typing allows for more flexibility but can lead to potentia
 
 // STACK (PRIMITIVE) , HEAP(NON PRIMITIVE )
 
-// let myyoutubename = "maninder singh"
-// anothername = myyoutubename
+let myyoutubename = "maninder singh"
+anothername = myyoutubename
 
-// anothername = "chaiaurcode"
+anothername = "chaiaurcode"
 
-// console.log(myyoutubename);
-// console.log(anothername);
+console.log(myyoutubename);    //// OUTPUT   maninder singh
+console.log(anothername);     //// OUTPUT  chaiaurcode
 
-// let userOne = {
-//     eamil: "user@google.com"
-    
-    
-// }
-// let userTwo = userOne
 
-// userTwo.email = "maninder@google.com"
+// object heap (non primitive )
 
-// console.log(userOne.email );
-// console.log(userTwo.email );
+let userOne = {
+    eamil: "user@google.com",
+    upi: "uderupi@ubl"
+}
+let userTwo = userOne
+
+userTwo.email = "maninder@google.com"
+
+console.log(userOne.email );        //// OUTPUT maninder@google.com
+console.log(userTwo.email );       //// OUTPUT maninder@google.com
 
