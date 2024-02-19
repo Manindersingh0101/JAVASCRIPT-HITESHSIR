@@ -30,12 +30,12 @@ const newString = gameName.substring(0, 4 )
  console.log(newStringOne.trim());              /// output = maninder teim is use for  remove the starting and backspace 
 
 
-const url ="https:/hitesh.com/hitesh%20cmanider"
+const url ="https:/hitesh.com/hitesh%20cmanider" 
 
 console.log(url.replace('%20', '-'));   // output = https:/hitesh.com/hitesh-cmanider // replace use for remove the value 
 
-console.log(url.includes('hitesh'));    // output =  true 
- console.log(url.includes('maninder'));  // output =  false
+console.log(url.includes('hitesh'));    // output =  true  
+ console.log(url.includes('maninder'));  // output =  false 
 
 
- console.log(gameName.split('-'));      // output  // 
+ console.log(gameName.split('-'));      // output [ 'hitesh', 'hc' ] //  
